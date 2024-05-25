@@ -1,12 +1,12 @@
 # SI_2024_lab2_213052
-Control Flow Graph
+### Control Flow Graph
 ![Lab2_CFG](https://github.com/anunyann/SI_2024_lab2_213052/assets/162722641/06c73fc3-e1d0-42eb-8987-196cebc7fc94)
 
 
-Цикломатска Комплексност
+### Цикломатска Комплексност
 Ако одиме според формулата Р + 1, каде што Р е бројот на предикатни јазли, добиваме дека 9+1 = 10 односно цикломатска комплексност е 10.
 
-Тест случаи според Every Branch
+### Тест случаи според Every Branch
 
 ![Lab2_CFG_withNumbers](https://github.com/anunyann/SI_2024_lab2_213052/assets/162722641/cd12db16-0366-41be-a822-bef345cc3fab)
 
@@ -14,7 +14,7 @@ Control Flow Graph
 Во овој пдф има табела направена во Excel од сите branches заедно со тестовите.
 За оваа метода ми требаше 5 тест случаи. Во табелата може да видите кој тест кои гранки ги опфаќа.
 
-Multiple Condition 
+### Multiple Condition 
 1. item.getPrice() > 300
 2. item.getDiscount() > 0
 3. item.getBarcode().charAt(0)=='0'
@@ -43,7 +43,7 @@ Item(banana, 0725, 100, 0)
 F F F
 Item(banana, 725, 100, 0)
 
-Кодот од Gradle: 
+### Кодот од Gradle: 
 import org.junit.jupiter.api.Test;
 import java.util.Collections;
 import static org.junit.jupiter.api.Assertions.*;
